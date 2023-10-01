@@ -1,0 +1,39 @@
+/* src/components/Card.css */
+
+.card {
+    width: 200px; /* Adjust width as needed */
+    height: 400px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(119, 187, 114, 0.1);
+    transition: transform 0.0s ease-in-out;
+   
+  }
+  
+  .card:hover {
+    transform: scale(1.00);
+    border:solid 10px white;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    height: 699px;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .card-content p {
+    font-size: 1rem;
+    color: #555;
+  }
+  a{
+    margin-left: 70px;
+  }
+  
